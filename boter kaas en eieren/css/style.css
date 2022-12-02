@@ -1,0 +1,57 @@
+.square{
+    background-color: #FEA60F;
+    width: 75px;
+    height: 75px;
+    border: 20px solid #DB6D0D ;
+    box-shadow: 0 0 0 5px #cc650c;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    
+   
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#squareContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-family:"Permanent Marker", cursive ;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #DB6D0D;
+    color: black;
+    
+    
+}
+.button1{
+    width: 100px;
+    height: 50px;
+    font-family:"Permanent Marker", cursive ;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #DB6D0D;
+    color: black;
+    float: right;
+    margin-right: 45%;
+    
+}
+
+body{
+    max-width: 1600px;
+    width: 100%;
+    
+    background-image: url(/.img/waffle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
